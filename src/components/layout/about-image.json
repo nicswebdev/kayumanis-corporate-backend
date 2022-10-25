@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_about_images",
+  "info": {
+    "displayName": "About_Image",
+    "icon": "file-image"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "private": true
+    }
+  }
+}

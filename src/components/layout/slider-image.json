@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_layout_slider_images",
+  "info": {
+    "displayName": "Slider_Image",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Slider_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

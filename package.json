@@ -1,0 +1,35 @@
+{
+  "name": "kayumanis-corporate",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "postinstall": "patch-package",
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@strapi/plugin-i18n": "4.4.3",
+    "@strapi/plugin-users-permissions": "4.4.3",
+    "@strapi/strapi": "4.4.3",
+    "mysql": "2.18.1",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
+    "strapi-plugin-navigation": "^2.2.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "3a17b8dc-69ac-4088-9deb-ab4899a145f9"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
